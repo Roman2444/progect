@@ -1,0 +1,279 @@
+
+html {
+
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.page-1 {
+    height: 800px;
+    background: url(../img/bg/bg_main.jpg)  center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+    
+.container {
+    width: 1140px;
+    background-color: rgba(226, 43, 43, 0.214);/* чтобы видеть рабочую зону */
+    margin: 0 auto;
+}
+
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.logo-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.simple .title-2 {
+    margin-top: 21px;
+}
+
+.title-2 {
+
+
+    font-size: 80px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+
+}
+.title-1 {
+
+    object-fit: contain;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eabe49;
+    
+}
+
+h2.title-1.title-under {
+    margin-top: 30px;
+}
+
+
+.promo_text {
+
+  margin-top: 23px ;
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.promo_text span {
+    font-weight: bold;
+    color: #eabe49;
+    text-transform: uppercase;
+}
+
+
+
+
+.btn {
+
+    display: block;
+    margin: 73px auto ;
+
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.22);
+    box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.17);
+
+    
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+    color: #ffffff;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+
+    margin-top: 63 ;
+}
+.more .more_text {
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 13px auto 0;
+
+} 
+
+
+.page-2 {
+
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px;
+}
+
+.page-2_header {
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
+
+.page-2_line {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 18px auto;
+}
+
+.page-2_subheader {
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.page-2_wrapper {
+    margin-top: 45px;
+
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.page-2_item {
+
+    width: 342px;
+    /* display: inline-block; */
+ 
+    font-size: 15px;
+    font-weight: 300;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.page-2_descr {
+   margin-top: 33px; 
+
+}
+
+.page-3 {
+    min-height: 550px;
+    padding: 102px 0 107px;
+    background-image: url(../img/bg/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: 150px 0;
+}
+
+.page-3_text {
+    margin-left: 391px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #4a4a4a;
+    /*
+    Text styles for "Мы научим вас, как сделать ваш сайт привлекательным для поисковых систем и посоветуем, как вывести его на первые страницы, обходя всех конкурентов.'"
+    */
+    /* font-weight: 700; */
+    }
+
+.page-3_header {
+    margin-top: 25px;
+    margin-left: 391px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+
+}
+
+.page-4 {
+    min-height: 447px;
+    padding: 86px 0 69px;
+
+    background: url(../img/bg/bg_3.jpg)  center center/cover no-repeat;
+}
+
+.page-4.container {
+   
+}
+
+.page-4_header{
+    
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #efefef;
+    text-align: center;
+    
+
+} 
+
+
+.page-4_wrapper {
+    margin-top: 86px;
+
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.page-4_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.page-5 {
+    min-height: 4628px;
+    padding: 86px 0 87px;
+
+      
+}
